@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import argparse
-import pycreate2
+import pycreate2wg
 import time
-from pycreate2.packets import Buttons, WheelOvercurrents, ChargingSources, LightBumper, Stasis, BumpsAndWheelDrop
+from pycreate2wg.packets import Buttons, WheelOvercurrents, ChargingSources, LightBumper, Stasis, BumpsAndWheelDrop
 
 DESCRIPTION = """
 Prints the raw data from a Create 2. The default packet is 100 which get everything.
@@ -154,7 +154,7 @@ def main():
     mon = Monitor()
 
     # create robot
-    bot = pycreate2.Create2(port)
+    bot = pycreate2wg.Create2(port)
     bot.start()
     bot.safe()
 

@@ -9,10 +9,10 @@
 
 import struct  # there are 2 places that use this ... why?
 import time
-from pycreate2.packets import SensorPacketDecoder
-from pycreate2.createSerial import SerialCommandInterface
-from pycreate2.OI import OPCODES
-from pycreate2.OI import DRIVE
+from pycreate2wg.packets import SensorPacketDecoder
+from pycreate2wg.createSerial import SerialCommandInterface
+from pycreate2wg.OI import OPCODES
+from pycreate2wg.OI import DRIVE
 
 
 class Create2(object):

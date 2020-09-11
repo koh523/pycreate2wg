@@ -11,4 +11,4 @@ from .create2api import Create2
 
 __license__ = 'MIT'
 __author__ = 'Kevin Walchko'
-__version__ = version("pycreate2")
+__version__ = version("pycreate2wg")

@@ -26,7 +26,7 @@ def main():
     port = args['port']
     baud = args['baud']
 
-    bot = pycreate2.Create2(port=port, baud=baud)
+    bot = pycreate2wg.Create2(port=port, baud=baud)
 
     bot.start()
     time.sleep(0.25)
